@@ -4,10 +4,6 @@ MLflow is an open-source platform for managing the end-to-end machine learning l
 
 In this exercise, you'll use MLflow to track model training run as a command job.
 
-## Before you start
-
-You'll need an [Azure subscription](https://azure.microsoft.com/free?azure-portal=true) in which you have administrative-level access.
-
 ## Provision an Azure Machine Learning workspace
 
 An Azure Machine Learning *workspace* provides a central place for managing all resources and assets you need to train and manage your models. You can interact with the Azure Machine Learning workspace through the studio, Python SDK, and Azure CLI.
@@ -79,12 +75,6 @@ Now that you have all the necessary resources, you can run the notebook to submi
 1. Verify that the notebook uses the **Python 3.8 - AzureML** kernel.
 1. Run all cells in the notebook.
 
-## Delete Azure resources
+## Conclusion
 
-When you finish exploring Azure Machine Learning, you should delete the resources you've created to avoid unnecessary Azure costs.
-
-1. Close the Azure Machine Learning studio tab and return to the Azure portal.
-1. In the Azure portal, on the **Home** page, select **Resource groups**.
-1. Select the **rg-dp100-...** resource group.
-1. At the top of the **Overview** page for your resource group, select **Delete resource group**.
-1. Enter the resource group name to confirm you want to delete it, and select **Delete**.
+You have completed the lab successfully.
