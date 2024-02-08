@@ -1,19 +1,17 @@
----
-lab:
-    title: 'Run pipelines in Azure Machine Learning'
----
-
 # Run pipelines in Azure Machine Learning
 
 You can use the Python SDK to perform all of the tasks required to create and operate a machine learning solution in Azure. Rather than perform these tasks individually, you can use pipelines to orchestrate the steps required to prepare data, run training scripts, and other tasks.
 
-In this exercise, you'll run multiple scripts as a pipeline job.
+## Lab objectives
 
-## Before you start
+In this lab, you will perform the following:
 
-You'll need an [Azure subscription](https://azure.microsoft.com/free?azure-portal=true) in which you have administrative-level access.
+- Task 1: Provision an Azure Machine Learning workspace
+- Task 2: Clone the lab materials
+- Task 3: Run scripts as a pipeline job
+- Task 4: Delete Azure resources
 
-## Provision an Azure Machine Learning workspace
+## Task 1: Provision an Azure Machine Learning workspace
 
 An Azure Machine Learning *workspace* provides a central place for managing all resources and assets you need to train and manage your models. You can interact with the Azure Machine Learning workspace through the studio, Python SDK, and Azure CLI.
 
@@ -47,7 +45,7 @@ To create the Azure Machine Learning workspace, a compute instance, and a comput
 
 1. Wait for the script to complete - this typically takes around 5-10 minutes.
 
-## Clone the lab materials
+## Task 2: Clone the lab materials
 
 When you've created the workspace and necessary compute resources, you can open the Azure Machine Learning studio and clone the lab materials into the workspace.
 
@@ -73,7 +71,7 @@ When you've created the workspace and necessary compute resources, you can open 
 
 1. When the command has completed, in the **Files** pane, click **&#8635;** to refresh the view and verify that a new **Users/*your-user-name*/azure-ml-labs** folder has been created.
 
-## Run scripts as a pipeline job
+## Task 3: Run scripts as a pipeline job
 
 The code to build and submit a pipeline with the Python SDK is provided in a notebook.
 
@@ -84,7 +82,7 @@ The code to build and submit a pipeline with the Python SDK is provided in a not
 1. Verify that the notebook uses the **Python 3.8 - AzureML** kernel.
 1. Run all cells in the notebook.
 
-## Delete Azure resources
+## Task 4: Delete Azure resources
 
 When you finish exploring Azure Machine Learning, you should delete the resources you've created to avoid unnecessary Azure costs.
 
@@ -93,3 +91,12 @@ When you finish exploring Azure Machine Learning, you should delete the resource
 1. Select the **rg-dp100-...** resource group.
 1. At the top of the **Overview** page for your resource group, select **Delete resource group**.
 1. Enter the resource group name to confirm you want to delete it, and select **Delete**.
+
+## Review
+
+In this lab you have completed the following tasks:
+
+- Provisioned an Azure Machine Learning workspace
+- Cloned the lab materials
+- Ran scripts as a pipeline job
+- Deleted Azure resources
