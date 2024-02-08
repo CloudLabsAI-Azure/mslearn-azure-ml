@@ -1,4 +1,4 @@
-# **Getting Started with Your AIW-Security-Immersion Workshop**
+# **Getting Started with Your Azure Machine Learning: Use MLFlow To Track Training Jobs**
  
 Welcome to your AIW-Security-Immersion workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
