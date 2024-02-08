@@ -32,7 +32,7 @@ To create the Azure Machine Learning workspace, a compute instance, and a comput
     git clone https://github.com/MicrosoftLearning/mslearn-azure-ml.git azure-ml-labs
     ```
 
-    > Use `SHIFT + INSERT` to paste your copied code into the Cloud Shell.
+    > NOTE: Use `SHIFT + INSERT` to paste your copied code into the Cloud Shell.
 
 1. After the repo has been cloned, enter the following commands to change to the folder for this lab and run the **setup.sh** script it contains:
 
@@ -41,7 +41,7 @@ To create the Azure Machine Learning workspace, a compute instance, and a comput
     ./setup.sh
     ```
 
-    > Ignore any (error) messages that say that the extensions were not installed.
+    > NOTE: Ignore any (error) messages that say that the extensions were not installed.
 
 1. Wait for the script to complete - this typically takes around 5-10 minutes.
 
@@ -61,7 +61,7 @@ When you've created the workspace and necessary compute resources, you can open 
     pip install azure-ai-ml
     ```
 
-    > Ignore any (error) messages that say that the packages couldn't be found and uninstalled.
+    > NOTE: Ignore any (error) messages that say that the packages couldn't be found and uninstalled.
 
 1. Run the following command to clone a Git repository containing notebooks, data, and other files to your workspace:
 
@@ -77,7 +77,7 @@ The code to build and submit a pipeline with the Python SDK is provided in a not
 
 1. Open the **Labs/09/Run a pipeline job.ipynb** notebook.
 
-    > Select **Authenticate** and follow the necessary steps if a notification appears asking you to authenticate.
+    > NOTE: Select **Authenticate** and follow the necessary steps if a notification appears asking you to authenticate.
 
 1. Verify that the notebook uses the **Python 3.8 - AzureML** kernel.
 1. Run all cells in the notebook.
