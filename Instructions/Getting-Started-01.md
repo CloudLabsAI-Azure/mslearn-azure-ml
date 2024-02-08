@@ -6,7 +6,7 @@
 
 1. To get the lab environment details, select the **Environment Details** tab.
 
-   ![](./images/02-env-detailspage.png)
+   ![](./images/02-envdetailspage.png)
 
 1. You can also **Start, Restart and Deallocate** the virtual machine from the **Resources tab**.
 
