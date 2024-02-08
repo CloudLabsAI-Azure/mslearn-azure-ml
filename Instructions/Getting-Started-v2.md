@@ -1,4 +1,4 @@
-# **Getting Started with Your Azure Machine Learning: Use MLFlow To Track Training Jobs**
+# **Getting Started**
  
 Welcome to your Azure Machine Learning: Use MLFlow To Track Training Jobs! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
