@@ -9,7 +9,6 @@ In this lab, you will perform the following:
 - Task 1: Provision an Azure Machine Learning workspace
 - Task 2: Clone the lab materials
 - Task 3: Run scripts as a pipeline job
-- Task 4: Delete Azure resources
 
 ## Task 1: Provision an Azure Machine Learning workspace
 
@@ -42,7 +41,7 @@ To create the Azure Machine Learning workspace, a compute instance, and a comput
     git clone https://github.com/MicrosoftLearning/mslearn-azure-ml.git azure-ml-labs
     ```
 
-    > NOTE: Use `SHIFT + INSERT` to paste your copied code into the Cloud Shell.
+    > **NOTE**: Use `SHIFT + INSERT` to paste your copied code into the Cloud Shell.
 
     ![](./images/cloudshell-cmd01.png)
 
@@ -53,7 +52,7 @@ To create the Azure Machine Learning workspace, a compute instance, and a comput
     ./setup.sh
     ```
 
-    > NOTE: Ignore any (error) messages that say that the extensions were not installed.
+    > **NOTE**: Ignore any (error) messages that say that the extensions were not installed.
 
 1. Wait for the script to complete - this typically takes around 5-10 minutes.
 
@@ -88,7 +87,7 @@ When you've created the workspace and necessary compute resources, you can open 
     pip install azure-ai-ml
     ```
 
-    > NOTE: Ignore any (error) messages that say that the packages couldn't be found and uninstalled.
+    > **NOTE**: Ignore any (error) messages that say that the packages couldn't be found and uninstalled.
 
     ![](./images/aml-terminal-cmd01.png)
 
@@ -110,7 +109,7 @@ The code to build and submit a pipeline with the Python SDK is provided in a not
 
 1. Open the **Labs/09/Run a pipeline job.ipynb** notebook.
 
-   > NOTE: Select **Authenticate** and follow the necessary steps if a notification appears asking you to authenticate.
+   > **NOTE**: Select **Authenticate** and follow the necessary steps if a notification appears asking you to authenticate.
 
    ![](./images/aml-authenticate.png)
 
@@ -122,26 +121,6 @@ The code to build and submit a pipeline with the Python SDK is provided in a not
 
    ![](./images/aml-run-cell.png)
 
-## Task 4: Delete Azure resources
-
-When you finish exploring Azure Machine Learning, you should delete the resources you've created to avoid unnecessary Azure costs.
-
-1. Close the Azure Machine Learning studio tab and return to the Azure portal.
-   
-1. In the Azure portal, on the **Home** page, select **Resource groups**.
-   
-1. Select the **rg-dp100-...** resource group.
-
-   ![](./images/azure-rg-name.png)
-   
-1. At the top of the **Overview** page for your resource group, select **Delete resource group**.
-
-   ![](./images/azure-rg-delete.png)
-   
-1. Enter the resource group name to confirm you want to delete it, and select **Delete**.
-
-   ![](./images/azure-rg-delete-confirm.png)
-
 ## Review
 
 In this lab you have completed the following tasks:
@@ -149,4 +128,3 @@ In this lab you have completed the following tasks:
 - Provisioned an Azure Machine Learning workspace
 - Cloned the lab materials
 - Ran scripts as a pipeline job
-- Deleted Azure resources
