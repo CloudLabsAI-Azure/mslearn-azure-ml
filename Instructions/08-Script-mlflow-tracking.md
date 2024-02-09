@@ -150,5 +150,5 @@ In this lab you have completed the following tasks:
 
 - Provisioned an Azure Machine Learning workspace
 - Cloned the lab materials
-- Ran scripts as a pipeline job
+- Used MLflow to track training jobs
 - Deleted Azure resources
